@@ -1,0 +1,7 @@
+name: grpc_hello
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+    - grpcio
+    - grpcio-tools
