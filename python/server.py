@@ -1,8 +1,8 @@
 import grpc
 from concurrent import futures
 import time
-import chat_pb2_grpc as pb2_grpc
-import chat_pb2 as pb2
+import hello_pb2_grpc as pb2_grpc
+import hello_pb2 as pb2
 
 
 class UnaryService(pb2_grpc.UnaryServicer):
